@@ -1,0 +1,61 @@
+h1{
+    color: aquamarine;
+}
+h2{
+    color: aliceblue;
+}
+h3{
+    color: aliceblue;
+}
+
+.btn-whattapps{
+    position: relative;
+    
+    align-items: center;
+
+}
+
+.btn-whattapps:before,
+.btn-whattapps:after{
+    
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #A7FF70;
+    opacity: 0;
+    animation: ondas 1.7s infinite;
+}
+
+.btn-whattapps::before{
+    animation-delay: 1s;
+}
+.btn-whattapps::after{
+    animation-delay: 1.3s;
+}
+.btn-whattapps img {
+    position: relative;
+    z-index: 2;
+    align-items: center;
+    
+    
+    
+}
+
+@keyframes ondas {
+    0%{
+        transform: scale(1);
+    }
+    15%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: scale(2.5);
+    }
+}
+
+
