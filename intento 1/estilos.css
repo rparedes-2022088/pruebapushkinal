@@ -9,7 +9,11 @@ h3{
 }
 
 
+.fondo{
 
+  max-width: 100% ;
+  height: auto;
+}
 
   .menu {
     list-style-type: none;
