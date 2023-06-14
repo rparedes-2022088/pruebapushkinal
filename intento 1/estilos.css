@@ -59,3 +59,12 @@ h3{
     display: inline-block;
     margin-right: 10px; /
   }
+
+  .registro{
+    color: white;
+  }
+
+  body {
+    background-color: #ffdd90;
+    background-image: url("fondoInicio.jpg");
+  }
