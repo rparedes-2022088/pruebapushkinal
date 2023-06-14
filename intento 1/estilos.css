@@ -1,5 +1,5 @@
 h1{
-    color: aquamarine;
+    color: black;
 }
 h2{
     color: aliceblue;
@@ -8,54 +8,45 @@ h3{
     color: aliceblue;
 }
 
-.btn-whattapps{
-    position: relative;
-    
-    align-items: center;
-
-}
-
-.btn-whattapps:before,
-.btn-whattapps:after{
-    
-    content: "";
-    position: absolute;
-    top: 2px;
-    left: 4px;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    background-color: #A7FF70;
-    opacity: 0;
-    animation: ondas 1.7s infinite;
-}
-
-.btn-whattapps::before{
-    animation-delay: 1s;
-}
-.btn-whattapps::after{
-    animation-delay: 1.3s;
-}
-.btn-whattapps img {
-    position: relative;
-    z-index: 2;
-    align-items: center;
-    
-    
-    
-}
-
-@keyframes ondas {
-    0%{
-        transform: scale(1);
-    }
-    15%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-        transform: scale(2.5);
-    }
-}
 
 
+
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    overflow: hidden;
+  }
+
+  .menu li {
+    float: left;
+  }
+
+  .menu li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .menu li a:hover {
+    background-color: #ddd;
+  }
+
+  .texto {
+    color: white;
+    justify-content: center;
+    align-items: center; /* Establece el color del texto en rojo */
+  }
+
+  .container h1,
+  .container img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .container img {
+    margin-right: 10px;
+  }
