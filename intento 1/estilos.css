@@ -50,3 +50,8 @@ h3{
   .container img {
     margin-right: 10px;
   }
+
+  .tablas {
+    display: inline-block;
+    margin-right: 10px; /
+  }
