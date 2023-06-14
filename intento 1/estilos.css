@@ -67,4 +67,7 @@ h3{
   body {
     background-color: #ffdd90;
     background-image: url("fondoInicio.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
