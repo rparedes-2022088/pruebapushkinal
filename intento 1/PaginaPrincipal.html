@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
-    <title>Document</title>
+    <script src="script.js"></script>
+    <title>Pagina principal</title>
+
 </head>
 <body>
     <style>
         body {
-         background-image:  url("fondo.gif");
+         background-image:  url("imagenes/fondo.gif");
           background-size: cover;
           background-repeat: no-repeat;
           animation: animacion-gif 10s infinite;
@@ -20,55 +22,118 @@
       </style>
 
 
-  <ul class="menu">
-    <li><a href="index.html" >Inicio</a></li>
-    <li><a href="index.html">Carros antiguos</a></li>
-    <li><a href="#">Carros modernos</a></li>
+
+
+
+        <button class="car-button" onclick="mostrarMenu()">Mostrar menú</button>
+            <ul class="menu-hidden" id="menu"  >
+            <li><a href="index.html" >Inicio</a></li>
+            <li><a href="index.html">Carros antiguos</a></li>
+            <li><a href="#">Carros modernos</a></li>
+            <li><a href="juego.html">Juego</a></li>
+                <li align="right"> <a  href="https://wa.me/50247103762" ><img src="imagenes/WhatsApp.svg.png" alt="Contactar por whattapps" width="25px" height="25px" >
+                </a></li>
+            </ul>
     
-    <li> <a  href="https://wa.me/50247103762" ><img src="./WhatsApp.svg.png" alt="Contactar por whattapps" width="25px" height="25px" >
-        </a></li>
-  </ul>
+   
 
 
+
+
+  
 
   
 
   
-
-    <body topmargin=0 leftmargin=0 marginheight=0 marginwidth=0 bgcolor="ffffff">
         <table width=100%  height: 20px bgcolor=5A5D59><tr><td>
-        
-            
+          <div >
             <h2 align="center"  color="aliceblue">Josué Alejandro Pérez Maás - 2022076</h2>
+          </div>
+            
         </td></tr></table>
-        </body> 
+      
 
 
        
-            <body topmargin=0 leftmargin=0 marginheight=0 marginwidth=0  >
-                <table width=80%  height: 50px  align="center"><tr><td>
-                    <br>
-                    <h2 align="center"  color="aliceblue">La historia de los automóviles</h2>
-                    <br>
-                    <div align = "left">
-                        <p class="texto" align = "left"  >
-                            La historia de los automóviles abarca varios siglos de innovación 
-                            y avances tecnológicos. En el siglo XVIII, el inventor francés Nicolas-Joseph
-                             Cugnot creó el primer vehículo autopropulsado utilizando una máquina de vapor.
-                              Sin embargo, fue a finales del siglo XIX cuando el inventor alemán Karl Benz 
-                              patentó el primer automóvil propulsado por un motor de gasolina, marcando el inicio 
-                              de los automóviles modernos.
-                              <img src="./WhatsApp.svg.png" alt="Descripción de la imagen" width="200px" height="200px" align ="right">
+
+                <br>
+                <h1 align="center"  >La historia de los automóviles</h1>
+                <div align="center">
+                    <table width=60%  height: 50px  ><tr><td>
+                        <br>
+                        <br>
+                            <p class="texto" >
+                                <img src="imagenes/auto1.jpg" alt="Descripción de la imagen" width="300px" height="250px" align="left">
+                              
+                                
+                                La historia de los automóviles abarca varios siglos de innovación 
+                                y avances tecnológicos. En el siglo XVIII, el inventor francés Nicolas-Joseph
+                            
+                                Cugnot creó el primer vehículo autopropulsado utilizando una máquina de vapor.
+                                Sin embargo, fue a finales del siglo XIX cuando el inventor alemán Karl Benz 
+                                patentó el primer automóvil propulsado por un motor de gasolina, marcando el inicio 
+                                de los automóviles modernos.
+
+                            </p>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <p class="texto">
+                                <img src="imagenes/auto2.jpg" alt="Descripción de la imagen" width="300px" height="250px" align="right">
+                                
+                                A principios del siglo XX, la producción de automóviles se expandió rápidamente gracias a la 
+                                introducción de la línea de montaje en masa por parte de Henry Ford. Esto permitió una producción
+                                 más eficiente y accesible para el público en general. Durante las décadas de 1920 y 1930, se realizaron 
+                                 avances en diseño y tecnología automotriz, incluyendo carrocerías cerradas, frenos hidráulicos y motores más potentes.
+                            </p>
+                            <br>
+                            <br>
+                            <br>
+                            <p class="texto">
+                                <img src="imagenes/auto3.jpg" alt="Descripción de la imagen" width="300px" height="350px" align="left">
+                               
+                                En las décadas de 1940 y 1950, después de la Segunda Guerra Mundial, la producción de automóviles se 
+                                disparó y se introdujeron modelos más elegantes y aerodinámicos. Además, se implementaron características 
+                                como la dirección asistida y la transmisión automática. A lo largo de las décadas siguientes, desde los años 
+                                60 hasta el nuevo milenio, se han continuado desarrollando avances en seguridad, tecnología de motores, diseño y características de comodidad y conveniencia, como sistemas de inyección de combustible, frenos antibloqueo, control de tracción y asistencia al conductor.
+
+                            </p>
+                            <br>
+                            <br>
+                            <br>
+                            <p class="texto">
+                                <img src="imagenes/auto4.jpg" alt="Descripción de la imagen" width="300px" height="250px" align="right">
                            
-                    </div>
-                         </p>
+                                En el siglo XXI, los automóviles han experimentado una importante transición hacia la electrificación 
+                                y la innovación tecnológica. Los vehículos híbridos y eléctricos se han vuelto más comunes, buscando 
+                                reducir la dependencia de los combustibles fósiles y disminuir la huella de carbono. Además, se han desarrollado 
+                                tecnologías de asistencia al conductor más avanzadas, como el frenado automático de emergencia y la conducción autónoma. 
+                                A medida que avanzamos, es probable que veamos una mayor integración de la inteligencia artificial y la conectividad en los 
+                                automóviles, redefiniendo aún más la experiencia de conducción en el futuro.
+                            </p>
+
+
+                          
+                </div>
+                        
+                           
+                       
+                           
+                            
+
+                         
                     
                             
                   
               
                 </td></tr>
             </table>
-                </body> 
+            
+
+
+
 
      
         
